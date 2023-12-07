@@ -1,0 +1,19 @@
+.container{
+    min-height: 75vh;
+}
+.bton{
+    border: none;
+    width: 180px;
+    padding: 10px;
+    color: white;
+    background-color: orange;
+    float: right;
+    font-weight: 700;
+    border: 2px solid rgb(245, 244, 242);
+}
+.bton:hover{
+    background-color: white;
+    color: orange;
+    border: 2px solid orange;
+    border-radius: 30px;
+}

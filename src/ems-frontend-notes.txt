@@ -1,0 +1,20 @@
+----------------------------------EMS-FRONTEND NOTES--------------------------------
+
+1. Create a new project => npx create-react-app ems-frontend 
+2. cd ems-frontend
+3. code .
+4. Clear the unwanted code
+5. Run the project => npm start
+6. Instal 3rd party packages
+      * font awesome  npm i @fortawesome/fontawesome-free
+      * google fonts
+      * react bootstrap / mdb-bootstrap      npm i mdb-react-ui-kit/npm install react-bootstrap bootstrap
+      * bootswatch
+7. Component creation
+   - Admin
+   - View
+   - Edit
+   - PageNotFound    
+8. Setup path for components
+   -> react-router-dom   =>  npm i react-router-dom
+9. npm i axios
