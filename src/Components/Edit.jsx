@@ -65,7 +65,13 @@ function Edit() {
         }}
         className="container"
       >
-        <h3 className="text-center m-5">Update Employee</h3>
+        <div>
+          <img
+            style={{ width: "100%" }}
+            src="https://th.bing.com/th/id/OIP.fBmnFzBO3UQ2ppdT837ZDAAAAA?rs=1&pid=ImgDetMain"
+            alt=""
+          />
+        </div>{" "}
         <div
           style={{ padding: "30px", border: "2px solid orange" }}
           className="form w-50"

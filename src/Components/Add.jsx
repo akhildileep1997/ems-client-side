@@ -39,30 +39,80 @@ const handleAdd=async(e)=>{
  
   return (
     <>
-        <div style={{display:'flex',justifyContent:'center',alignItems:'center'}} className="container">
-        <h3 className='text-center m-5'>Add Employee</h3>
-        <div style={{padding:'30px',border:'2px solid orange'}} className="form w-50">
-      <MDBInput onChange={(e)=>setId(e.target.value)} label='Id' id='formControlLg' type='text' size='lg' />
-      <br />
-      <MDBInput onChange={(e)=>setName(e.target.value)}  label='Name' id='formControlLg' type='text' size='lg' />
-      <br />
-      <MDBInput onChange={(e)=>setAge(e.target.value)}  label='Age' id='formControlLg' type='text' size='lg' />
-      <br />
-      <MDBInput onChange={(e)=>setDesignation(e.target.value)}  label='Designation' id='formControlLg' type='text' size='lg' />
-      <br />
-      <MDBInput onChange={(e)=>setSalary(e.target.value)}  label='Salary' id='formControlLg' type='text' size='lg' />
-      <div style={{display:'flex',justifyContent:"space-evenly"}} className='mt-3'>
-      <Link to={'/'}>      
-      <MDBBtn  color='warning'> Back To Home</MDBBtn>
-      </Link>
-      <MDBBtn onClick={(e)=>handleAdd(e)} color='success'> Add Employee</MDBBtn>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+        className="container"
+      >
+        <div>
+          <img
+            style={{ width: "100%" }}
+            src="https://th.bing.com/th/id/OIP.fBmnFzBO3UQ2ppdT837ZDAAAAA?rs=1&pid=ImgDetMain"
+            alt=""
+          />
+        </div>
+        <div
+          style={{ padding: "30px", border: "2px solid orange" }}
+          className="form w-50"
+        >
+          <MDBInput
+            onChange={(e) => setId(e.target.value)}
+            label="Id"
+            id="formControlLg"
+            type="text"
+            size="lg"
+          />
+          <br />
+          <MDBInput
+            onChange={(e) => setName(e.target.value)}
+            label="Name"
+            id="formControlLg"
+            type="text"
+            size="lg"
+          />
+          <br />
+          <MDBInput
+            onChange={(e) => setAge(e.target.value)}
+            label="Age"
+            id="formControlLg"
+            type="text"
+            size="lg"
+          />
+          <br />
+          <MDBInput
+            onChange={(e) => setDesignation(e.target.value)}
+            label="Designation"
+            id="formControlLg"
+            type="text"
+            size="lg"
+          />
+          <br />
+          <MDBInput
+            onChange={(e) => setSalary(e.target.value)}
+            label="Salary"
+            id="formControlLg"
+            type="text"
+            size="lg"
+          />
+          <div
+            style={{ display: "flex", justifyContent: "space-evenly" }}
+            className="mt-3"
+          >
+            <Link to={"/"}>
+              <MDBBtn color="warning"> Back To Home</MDBBtn>
+            </Link>
+            <MDBBtn onClick={(e) => handleAdd(e)} color="success">
+              {" "}
+              Add Employee
+            </MDBBtn>
+          </div>
+        </div>
       </div>
-      
-  
-        </div>
-        </div>
     </>
-  )
+  );
 }
 
 export default Add
